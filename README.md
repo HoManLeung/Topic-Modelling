@@ -1,4 +1,4 @@
-# :two_hearts: Using Spark for Machine Learning :stuck_out_tongue_winking_eye::dog:
+# :two_hearts: Using Spark for Machine Learning :trophy::trophy:
 
 ![science and tech](https://media.giphy.com/media/ize2r20ICQONq/giphy.gif)
 
