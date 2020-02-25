@@ -1,4 +1,4 @@
-#  Using Spark for Machine Learning :trophy::trophy
+#  Using Spark for Machine Learning :trophy::trophy:
 ## Topic Modelling LDA ##
 
 ![science and tech](https://media.giphy.com/media/ize2r20ICQONq/giphy.gif)
