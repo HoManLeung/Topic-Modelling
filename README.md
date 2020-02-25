@@ -1,11 +1,11 @@
-#  Using Spark for Machine Learning :trophy::trophy:
+# :trophy: Using Spark for Machine Learning :trophy:
 ## Topic Modelling LDA ##
 
 ![science and tech](https://media.giphy.com/media/ize2r20ICQONq/giphy.gif)
 
 ## Introduction 
 
-In this project, we will use spark to do machine learning. Our dataset is  `Amazon Product Review Dataset` and analyze reviews using natural language processing (NLP).We are using  algorithm "Topic Modeling " is a type of statistical modeling for discovering the abstract “topics” that occur in a collection of documents. Latent Dirichlet Allocation (LDA) is an example of topic model and is used to classify text in a document to a particular topic. It builds a topic per document model and words per topic model, modeled as Dirichlet distributions.
+In this project, we are using spark to do machine learning. Our dataset is  `Amazon Product Review Dataset` and analyze reviews using natural language processing (NLP).Here we are using  algorithm "Topic Modeling " is a type of statistical modeling for discovering the abstract “topics” that occur in a collection of documents. Latent Dirichlet Allocation (LDA) is an example of topic model and is used to classify text in a document to a particular topic. It builds a topic per document model and words per topic model, modeled as Dirichlet distributions.
 
 
 ## About Data  :shipit:
