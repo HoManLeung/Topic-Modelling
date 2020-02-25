@@ -1,4 +1,4 @@
-# :trophy: Topic Modeling LDA Using Spark for Machine Learning 
+#  Topic Modeling LDA Using Spark for Machine Learning 
 
 
 
@@ -8,12 +8,12 @@
 In this project, we are using spark to do machine learning. Our dataset is  `Amazon Product Review Dataset` and analyze reviews using natural language processing (NLP).Here we are using  algorithm "Topic Modeling " is a type of statistical modeling for discovering the abstract “topics” that occur in a collection of documents. Latent Dirichlet Allocation (LDA) is an example of topic model and is used to classify text in a document to a particular topic. It builds a topic per document model and words per topic model, modeled as Dirichlet distributions.
 
 
-## About Data  :shipit:
+## About Data 
 
-We are using dataset `Amazon's Magazine Subscription` and here is the link of dataset http://deepyeti.ucsd.edu/jianmo/amazon/index.html.
+We used Amazon raw review dataset that was 34gb in zipped format and 120gb otherwise. We did EDA, DataProcessing along with Count vectorizer(files in Topic modeling folder) on that data but after that as data is too big and we were performing analysis on personal computer it stopped working when we tried to fit model. We thought to proceed with department's Datascience lab but we only have access on Tuesdays. Therefore we choose Amazon Magazine_Subscription data to proceed with.
+`Amazon's Magazine Subscription dataset's online link is here http://deepyeti.ucsd.edu/jianmo/amazon/index.html.
 
-
-## Instructions For Running the Project:
+## Topic Modeling:
 
 For our project, Here we are trying to implement NLP on the dataset, in order to do that,we will follow the following machine learning steps:
 
