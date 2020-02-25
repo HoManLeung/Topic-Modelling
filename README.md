@@ -1,7 +1,7 @@
 # :trophy: Topic Modeling LDA Using Spark for Machine Learning 
 
 
-![science and tech](https://media.giphy.com/media/ize2r20ICQONq/giphy.gif)
+
 
 ## Introduction 
 
