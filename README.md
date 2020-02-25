@@ -51,13 +51,13 @@ For this purpose we performed following steps:
 
 For applying machine learning, as we have reviews in words, we have to vectorize the words to do analysis therefore we applied count vectorizer approach to vectorize the data. After that we remove null values from our data and splitted the dataset into two parts i.e., training and test datasets in 7:3 ratio. After that we applied Latent Dirichlet allocation (LDA) model in our dataset. In this process, we got top 20 Topics along with their weights. We plotted wordcloud on top 6 topics. After this we transformed the model and got topic distributions of topics. We also got topic matrix.
 
-## Validation
+## 4. Validation
 
 For validation of topic modeling best is to do coherence score as this measures score a single topic by measuring the degree of semantic similarity between high scoring words in the topic but Spark doesn't have any package for that therefore perplexity measure is used here for validation.
 
 Perplexity is a statistical measure of how well a probability model predicts a sample.
 
-## Testing
+## 5. Testing
 
 For testing, we applied LDA model on two reviews that were neither from training nor from test. We took one online review some lipstick product and our data is of Magazine Subscription. This is five rating review. Other review is of dress and of one rating. We took the review in a dataframe then did the preprocessing to remove any biasedness and after countvectorizing, fitted the model. Model took term "wife" in fine rating and "worst" in one rating with very high topicDistribution. After this we also calculated the perplexity score.
 
