@@ -1,6 +1,14 @@
 #  Topic Modeling LDA Using Spark for Machine Learning 
 
+## How to run the project
 
+The project is done in jupyter notebooks after installing spark. To get the same results, one should run the notebooks in the same order given below:
+* First one should run EDA file to get the schema, read the file count words, characters along with different graphical presentation
+* Second Data Processing file to clean the data thoroughly, first removing punctations, lower casing words, lemmitization, stemming and removing all words less than 3.
+* Third file one should run is Machine learning, we applied LDA model.
+* Fourth one should be Validation.
+* Last one is Testing file.
+All results will be same.
 
 
 ## Introduction 
